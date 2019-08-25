@@ -26,6 +26,7 @@
     "gatsby"
   ],
   "license": "MIT",
+  "homepage": "https://glin7976.github.io/blog/",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
