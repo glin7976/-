@@ -1,7 +1,7 @@
 ---
 title: 如何开始一篇Markdown
 date: 2019-01-01
-path: /blog/如何开始一篇Markdown
+path: /如何开始一篇Markdown
 ---
     Markdown是一种标记语言，文档后缀为 .md，.markdown
 

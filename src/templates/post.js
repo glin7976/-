@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Blog from '../pages/blog';
+import Blog from '../pages/blogs';
 
 export default function Template({ data }) {
 	const { markdownRemark } = data // data.markdownRemark holds your post data
