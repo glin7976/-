@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{194:function(n,e,t){"use strict";t.r(e);var u=t(0),a=t.n(u);e.default=function(n){return a.a.createElement("div",null,"系列文章")}}}]);
+//# sourceMappingURL=component---src-pages-series-js-14394a47d498bf343199.js.map

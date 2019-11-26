@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/series.js"],"names":["Blogs","props"],"mappings":"0FAAA,2BAQeA,UAND,SAACC,GACX,OACI","file":"component---src-pages-series-js-14394a47d498bf343199.js","sourcesContent":["import React from 'react';\n\nconst Blogs = (props) => {\n    return (\n        <div>系列文章</div>\n    );\n};\n\nexport default Blogs;\n"],"sourceRoot":""}
