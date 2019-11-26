@@ -3,6 +3,7 @@ import Layout from '../components/Layout/layout';
 import Aside from '../components/Aside/aside';
 
 const Blog = ({children, path}) => {
+    console.log('path: ', path);
     return (
         <Layout>
             <div className='blog-wrap' style={{display: 'flex'}}>
