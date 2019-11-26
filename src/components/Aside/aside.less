@@ -1,0 +1,30 @@
+.aside-wrap {
+    width: 300px;
+    padding: 0px 20px;
+    border-right: 1px solid #e8e8e8;
+    font-size: 16px;
+    flex-shrink: 0;
+
+    & > div:first-child {
+        line-height: 40px;
+        font-weight: bold;
+
+        &.active {
+            color: #34837c;
+        }
+    }
+
+    & > a {
+        display: inline-block;
+        width: 100%;
+        padding-left: 15px;
+        margin-bottom: 10px;
+        line-height: 30px;
+        color: #3E3E47;
+
+        &.active {
+            border-left: 3px solid #34837c;
+            color: #34837c;
+        }
+    }
+}

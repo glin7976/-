@@ -1,21 +1,39 @@
-import React from "react"
-import { Link } from "gatsby"
+import React, { useEffect } from "react";
+import { Link } from "gatsby";
+import lottie from 'lottie-web';
+import working from '../static/working-animation.json';
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Layout from "../components/Layout/layout";
+import SEO from "../components/seo";
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>欢迎来到 Du's Blog! 👏👏</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+import './index.less';
 
-export default IndexPage
+const IndexPage = () => {
+	useEffect(() => {
+		lottie.loadAnimation({
+			container: document.getElementById("box"),
+			renderer: 'svg',
+			loop: true,
+			autoplay: true,
+			animationData: working
+		})
+	}, []);
+
+	return (
+		<Layout>
+			<SEO title="Home" />
+			<div className='banner-wrap'>
+				<div  className='left-content'>
+					<h1>Coding 日志</h1>
+					<p>记录、咀嚼、共享</p>
+					<Link to='/blog'>
+						<button className='start-read-btn'>开始阅读</button>
+					</Link>
+				</div>
+				<div id="box" style={{ maxWidth: `300px`, marginBottom: `1.45rem` }} />
+			</div>
+		</Layout>
+	);
+}
+
+export default IndexPage;
