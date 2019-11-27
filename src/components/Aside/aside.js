@@ -19,7 +19,7 @@ const Aside = ({activePath}) => {
 
     return (
         <aside className='aside-wrap'>
-            <div className={activePath === '/blog/' ? 'active': ''}>前言</div>
+            <div className={activePath === '/blogs/' ? 'active': ''}>前言</div>
             {
                 data && data.allMarkdownRemark.edges.map((edge, index) => (
                     <Link
