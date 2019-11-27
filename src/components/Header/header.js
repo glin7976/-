@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => {
           <Link to="/" >
               首页
           </Link>
-          <Link to="/blogs" >
+          <Link to="/articles" >
               博客
           </Link>
           <Link to="/series">

@@ -26,7 +26,7 @@ const IndexPage = () => {
 				<div  className='left-content'>
 					<h1>Coding 日志</h1>
 					<p>记录、咀嚼、共享</p>
-					<Link to='/blogs'>
+					<Link to='/articles'>
 						<button className='start-read-btn'>开始阅读</button>
 					</Link>
 				</div>
